@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+/* General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #ffffff);
+}
+
+/* Header */
+header {
+    background: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Section Styling */
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* About */
+#about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Skills Grid */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    text-align: center;
+}
+
+.skill {
+    background: #1976d2;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #0d47a1;
+    transform: scale(1.05);
+}
+
+/* Resume Button */
+#resume a {
+    text-decoration: none;
+    background: #0d47a1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0d47a1;
+    color: white;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Geetha Sowmya</h1>
+    <p>Aspiring Web Developer | Passionate Learner | Future Software Engineer</p>
+</header>
+
+<!-- About -->
+<section id="about">
+    <img src="profpic.jpeg" alt="Profile Photo">
+    <div>
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated and enthusiastic B.Tech Computer Science student with a strong interest in web development. 
+            I have a solid foundation in HTML, CSS, and basic JavaScript, and I enjoy creating visually appealing and 
+            user-friendly web pages.
+        </p>
+        <p>
+            I am constantly learning new technologies and improving my problem-solving skills. My goal is to become a 
+            skilled software developer and contribute to innovative projects in the tech industry.
+        </p>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">Java</div>
+        <div class="skill">Problem Solving</div>
+        <div class="skill">Data Structures</div>
+        <div class="skill">OOP Concepts</div>
+    </div>
+</section>
+
+<!-- Education -->
+<section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech in Computer Science Engineering</strong></p>
+    <p>Jawaharlal Nehru Technological University (JNTUK)</p>
+    <p>Currently Pursuing</p>
+</section>
+
+<!-- Achievements -->
+<section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Completed Web Development Internship at CodSoft</li>
+        <li>Built responsive web pages using HTML and CSS</li>
+        <li>Strong understanding of programming fundamentals</li>
+    </ul>
+</section>
+
+<!-- Resume -->
+<section id="resume">
+    <h2>Resume</h2>
+    <p>You can download my resume to know more about my skills and experience.</p>
+    <a href="#">Download My Resume</a>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to collaborate or have any opportunities, feel free to contact me.</p>
+    <p>Email: geetha27@gmail.com</p>
+    <p>Phone: 1234567890</p>
+    
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Geetha Sowmya. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

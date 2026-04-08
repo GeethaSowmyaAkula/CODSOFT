@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #1e1f2f, #2b2d42);
+    color: #f1f1f1;
+}
+
+/* Header */
+header {
+    background: #151628;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ddd;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #aab4ff;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #3a3d7c, #5a5fcf);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 15px 0;
+    color: #e0e0ff;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #8c9eff;
+    color: #1e1f2f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #6f79ff;
+}
+
+/* Features */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background: transparent;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background: #2f314f;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+/* About */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    background: #151628;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>My Landing Page</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Build Your Future with Web Development</h2>
+    <p>Learn, create, and grow your skills with simple and powerful web technologies</p>
+    <button onclick="alert('Welcome! Let’s start 🚀')">Get Started</button>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>Easy to Use</h3>
+        <p>Simple and beginner-friendly design.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Responsive</h3>
+        <p>Works on all devices smoothly.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Modern UI</h3>
+        <p>Clean and attractive interface.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>Fast</h3>
+        <p>Lightweight and quick performance.</p>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About This Page</h2>
+    <p>This landing page is designed using HTML and CSS to demonstrate layout, alignment, and styling.</p>
+</section>
+
+<section class="about">
+    <h2>Get in Touch</h2>
+    <p>Email: geetha27@gmail.com</p>
+    <p>Phone: 1234567890</p>
+</section>
+
+<footer>
+    <p>© 2026 Geetha Sowmya. All rights reserved.</p>
+    <p>Designed with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
